@@ -1,0 +1,5 @@
+cores 
+
+vermelho #f6413d
+
+gradient #fb5448 - #e53a39
