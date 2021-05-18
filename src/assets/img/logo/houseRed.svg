@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="76.887253mm"
+   height="78.300522mm"
+   viewBox="0 0 76.887254 78.300522"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="d.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="518.06108"
+     inkscape:cy="326.4253"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g915"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(510.26281,4.700433)">
+    <g
+       transform="matrix(0.15979699,0,0,-0.15979699,-635.47557,107.15746)"
+       fill="#000000"
+       stroke="none"
+       id="g915">
+      <path
+         d="m 1073,679 c -4,-14 -11,-18 -22,-13 -9,4 -23,6 -31,6 -23,-1 -222,-119 -233,-137 -12,-22 9,-45 40,-45 20,0 22,-3 13,-19 -25,-47 -6,-147 38,-198 45,-52 79,-63 202,-63 77,0 120,4 128,12 8,8 12,52 12,133 0,115 1,121 23,130 36,16 27,47 -25,80 -42,27 -47,34 -47,67 -1,59 -9,68 -53,68 -32,0 -41,-4 -45,-21 z m 7,-152 c 35,-18 70,-74 70,-114 0,-51 -25,-100 -62,-123 -113,-69 -239,71 -168,188 33,53 107,76 160,49 z"
+         id="path901"
+         style="fill:#ff0000" />
+    </g>
+  </g>
+</svg>
