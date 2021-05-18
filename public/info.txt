@@ -1,5 +1,7 @@
 cores 
 
-vermelho #f6413d
+vermelho: #f6413d
 
-gradient #fb5448 - #e53a39
+gradient: #fb5448 - #e53a39
+
+azul: #151926

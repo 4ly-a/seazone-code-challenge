@@ -3,10 +3,18 @@
 :root {
   --red: #f6413d;
   --black: #222222;
+  --blue: #151926;
+  --sec-blue: #2b334e;
+  --white: #eeeeee;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
