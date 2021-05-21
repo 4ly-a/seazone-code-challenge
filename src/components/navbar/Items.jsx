@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/img/logo/logo.svg";
+import Logo from "../../assets/img/logo/logoRedW.svg";
 
 export default function Items(id) {
   const styles = ["li-container", "active"];
@@ -14,11 +14,7 @@ export default function Items(id) {
     <nav className="nav-container">
       <ul className="nav-ul-container">
         <li onClick={() => handleclick(0)} className="logo-container">
-          <Link
-            style={{ color: "inherit", textDecoration: "inherit" }}
-            className="link"
-            to="/"
-          >
+          <Link style={{ textDecoration: "inherit" }} className="link" to="/">
             <img className="logo" src={Logo} alt="logo-seazone" />
           </Link>
         </li>
