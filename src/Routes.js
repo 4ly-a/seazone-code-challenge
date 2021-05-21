@@ -7,7 +7,8 @@ import Budgets from "./components/budgets/Budgets";
 import Client from "./components/client/Client";
 import Control from "./components/control/Control";
 import Properties from "./components/proprieties/Properties";
-import Navbar from "./components/utils/Navbar";
+import Navbar from "./components/navbar/Navbar";
+import InfoBar from "./components/navbar/infobar/Infobar";
 
 export default function App() {
   return (
@@ -29,10 +30,12 @@ export default function App() {
           </Route>
 
           <Route path="/properties">
+            <InfoBar />
             <Properties />
           </Route>
 
           <Route path="/control">
+            <InfoBar />
             <Control />
           </Route>
 
