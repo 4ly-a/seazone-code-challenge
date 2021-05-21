@@ -35,7 +35,6 @@ export default function App() {
           </Route>
 
           <Route path="/control">
-            <InfoBar />
             <Control />
           </Route>
 
