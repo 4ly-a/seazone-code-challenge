@@ -1,11 +1,17 @@
-@import "./assets/style/navbar.css";
+@import "./assets/style/navbar/navbar.css";
 
 :root {
   --red: #f6413d;
+  --grad-red: linear-gradient(#fb5448, #e53a39);
+  --grad-red-invert: linear-gradient(#ffbdbd, #fb5448);
   --black: #222222;
+  --sec-black: rgba(0, 0, 0, 0.274);
   --blue: #151926;
   --sec-blue: #2b334e;
+  --third-black: rgba(0, 0, 0, 0.685);
   --white: #eeeeee;
+  --f-white: #fff;
+  --grad: linear-gradient(rgb(255, 255, 255), rgb(238, 238, 238));
 }
 
 * {
