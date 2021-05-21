@@ -2,6 +2,7 @@
 
 :root {
   --red: #f6413d;
+  --sec-red: #b3302e;
   --grad-red: linear-gradient(#fb5448, #e53a39);
   --grad-red-invert: linear-gradient(#ffbdbd, #fb5448);
   --black: #222222;
@@ -31,4 +32,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sec-red);
 }
