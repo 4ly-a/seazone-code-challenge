@@ -1,2 +1,38 @@
 @import "./cards.css";
 
+.proprieties-container {
+  margin: 5rem;
+}
+
+.title-p-container {
+  margin-bottom: 3rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title-p-container {
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-between;
+}
+
+.title-p-container h1 {
+  margin: 0px;
+  color: var(--black);
+}
+
+.title-p-container h1 spam {
+  font-size: 1rem;
+  margin: 0px;
+  color: var(--third-black);
+}
+
+.ordenation-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+}
