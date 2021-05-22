@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 import Home from "./components/home/Home";
 import Calendar from "./components/calendar/Calendar";
@@ -13,36 +18,38 @@ import InfoBar from "./components/navbar/infobar/Infobar";
 export default function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
+      <Navbar />
 
-        <Switch>
-          <Route path="/calendar">
-            <Calendar />
-          </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
 
-          <Route path="/client">
-            <Client />
-          </Route>
+      <Switch>
+        <Route path="/calendar">
+          <Calendar />
+        </Route>
 
-          <Route path="/budgets">
-            <Budgets />
-          </Route>
+        <Route path="/client">
+          <Client />
+        </Route>
 
-          <Route path="/properties">
-            <InfoBar />
-            <Properties />
-          </Route>
+        <Route path="/budgets">
+          <Budgets />
+        </Route>
 
-          <Route path="/control">
-            <Control />
-          </Route>
+        <Route path="/properties">
+          <InfoBar />
+          <Properties />
+        </Route>
 
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+        <Route path="/control">
+          <Control />
+        </Route>
+
+        <Route>
+          <Redirect to="/home" />
+        </Route>
+      </Switch>
     </Router>
   );
 }
