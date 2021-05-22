@@ -1,4 +1,4 @@
-@import "./items.css";
+@import "./items/items.css";
 
 nav {
   display: flex;
