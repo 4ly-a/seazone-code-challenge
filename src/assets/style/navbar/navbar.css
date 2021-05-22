@@ -16,7 +16,6 @@ nav li {
 }
 
 .li-container {
-  border-radius: 0.4rem;
   margin: auto 1rem;
   display: flex;
   width: 8em;
