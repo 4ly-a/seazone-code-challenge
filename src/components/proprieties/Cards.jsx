@@ -1,6 +1,6 @@
 import React from "react";
-import airbnb from "../../assets/img/circleLogo/airbnb.png";
-import house from "../../assets/img/circleLogo/house.png";
+import airbnb from "../../assets/img/pins/airbnb.png";
+import house from "../../assets/img/pins/house.png";
 
 const Cards = (props) => {
   const total = props.diaria + props.taxaLimpeza + props.coucao;

@@ -4,7 +4,7 @@ class Calendar extends Component {
   render() {
     return (
       <div>
-        <h1>Calendário</h1>
+        <h1>Rota Calendário</h1>
       </div>
     );
   }

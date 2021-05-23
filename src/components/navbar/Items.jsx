@@ -14,11 +14,7 @@ export default function Items(id) {
     <nav className="nav-container">
       <ul className="nav-ul-container">
         <li onClick={() => handleclick(0)} className="logo-container">
-          <Link
-            style={{ textDecoration: "inherit" }}
-            className="link"
-            to="/home"
-          >
+          <Link style={{ textDecoration: "inherit" }} className="link" to="/">
             <img className="logo" src={Logo} alt="logo-seazone" />
           </Link>
         </li>
