@@ -1,5 +1,6 @@
-@import "./assets/style/navbar/navbar.css";
 @import "./assets/style/main/main.css";
+@import "./assets/style/navbar/navbar.css";
+@import "./assets/style/main/responsive.css";
 
 :root {
   --red: #f6413d;
