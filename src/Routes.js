@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
   Redirect,
+  BrowserRouter,
 } from "react-router-dom";
 
 import Home from "./components/home/Home";
@@ -17,10 +18,10 @@ import InfoBar from "./components/navbar/infobar/Infobar";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
 
-      <Route path="/home">
+      <Route path="/" exact>
         <Home />
       </Route>
 
@@ -42,14 +43,14 @@ export default function App() {
           <Properties />
         </Route>
 
-        <Route path="/control">
+        <Route exact path="/control">
           <Control />
         </Route>
 
         <Route>
-          <Redirect to="/home" />
+          <Redirect to="/" />
         </Route>
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
