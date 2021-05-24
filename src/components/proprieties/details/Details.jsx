@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 import group from "../../../assets/img/icons/group.svg";
 import house from "../../../assets/img/icons/house.svg";
-import arrow from "../../../assets/img/icons/arrow.svg";
 
 import deposit from "../../../assets/img/icons/deposit.svg";
 
@@ -12,9 +11,18 @@ import no from "../../../assets/img/detailPin/svg/n-pin.svg";
 import yes from "../../../assets/img/detailPin/svg/y-pin.svg";
 import active from "../../../assets/img/detailPin/svg/active.svg";
 
-const Details = (props) => {
+const Details = () => {
   const [bail, tax] = [50, 20];
   const [cama, sofa] = [2, 4];
+
+  const i = window.location.href
+    .split(":")
+    .filter((n) => Number(n) || n == 0)
+    .join("");
+
+  console.log(i);
+
+  const source = `https://source.unsplash.com/${600 + i}x${600 + i}/?House`;
 
   return (
     <div className="details-page-container">
@@ -32,7 +40,7 @@ const Details = (props) => {
       <div className="content-container">
         <div className="first-container">
           <div className="first-image-container">
-            <img src="https://source.unsplash.com/501x501/?House" alt="house" />
+            <img src={source} alt="house" />
           </div>
 
           <div className="location-container">

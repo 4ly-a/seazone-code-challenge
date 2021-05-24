@@ -10,6 +10,7 @@ import Navbar from "./components/navbar/Navbar";
 import InfoBar from "./components/navbar/infobar/Infobar";
 import Properties from "./components/proprieties/Properties";
 import Details from "./components/proprieties/details/Details";
+import Cards from "./components/proprieties/cards/Cards";
 
 export default function App() {
   return (
@@ -38,7 +39,7 @@ export default function App() {
           <Properties />
         </Route>
 
-        <Route path="/details">
+        <Route path="/details/:index" component={Details}>
           <InfoBar />
           <Details />
         </Route>

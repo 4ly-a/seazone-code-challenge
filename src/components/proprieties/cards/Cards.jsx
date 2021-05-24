@@ -7,10 +7,13 @@ const Cards = (props) => {
   const bail = parseInt(props.diaria / 2);
   const total = props.diaria + props.taxaLimpeza + bail;
 
+  const index = props.index;
+
+  const route = `/details/:${index}`;
   return (
     <div className="card">
       <div className="image-container">
-        <Link to="/details">
+        <Link index={index} to={route}>
           <img className="house" alt="house" src={props.source} />
         </Link>
         <div className="circle-container">

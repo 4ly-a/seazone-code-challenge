@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Cards from "./cards/Cards";
 class Properties extends Component {
+
   render() {
     function random(e) {
       if (e === 0) {
@@ -9,6 +10,7 @@ class Properties extends Component {
       return Math.floor(Math.random() * e * 500) + 1;
     }
     const limit = random(0);
+    
     let nCards = [];
     for (let i = 1; i <= limit; i++) {
       nCards.push(
