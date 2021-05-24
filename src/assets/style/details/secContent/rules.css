@@ -1,0 +1,9 @@
+.more-roules {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.more-roules:hover {
+  color: var(--sec-red);
+  user-select: none;
+}

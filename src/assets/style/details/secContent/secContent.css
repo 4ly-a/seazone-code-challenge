@@ -1,0 +1,37 @@
+@import "./cards.css";
+@import "./beds.css";
+@import "./rules.css";
+@import "./grid.css";
+
+.sec-title-container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.sec-title-container p {
+  font-size: 1rem;
+  color: var(--third-black);
+}
+
+.subtitle-container {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+  border-bottom: 1px solid var(--qua-black);
+}
+
+.subtitle-container img {
+  width: 3rem;
+}
+
+.subtitle-container p {
+  color: var(--black);
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+}

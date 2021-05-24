@@ -1,0 +1,25 @@
+.grid-container h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.grid {
+  border-top: 1px solid var(--qua-black);
+  margin-top: 0.5rem;
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.grid p {
+  justify-content: center;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.grid p img {
+  margin-left: 1rem;
+  width: 18%;
+}

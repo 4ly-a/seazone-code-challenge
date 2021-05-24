@@ -1,0 +1,31 @@
+.beds-container {
+  margin-bottom: 2rem;
+}
+
+.beds-container h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.beds {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--qua-black);
+}
+
+.beds ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beds li {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.beds li spam {
+  margin-left: 0.5rem;
+  font-weight: 200;
+}
