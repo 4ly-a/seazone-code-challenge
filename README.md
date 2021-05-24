@@ -12,7 +12,6 @@ A rota de propriedades `/properties` junto da rota de detalhes de cada proprieda
 
 Na rota de detalhes é mostrado os detalhes de cada casa no sistema, porém como a imagem é gerada do unsplash ela não muda de acordo com a imagem de cada card, é sempre fixa e sempre igual a imagem do primeiro card apenas.
 
-
 ## Cards
 
 Na rota de propriedades foram geradas vários cards que representam as casas, para cria-los foi utilizada a `api do unsplash` na qual se pode gerar imagens randômicas através de um link, também se pode filtrar por termos específicos, como nos cards o termo filtrado é `house` o que permite a criação de várias imagens com o tema house.
