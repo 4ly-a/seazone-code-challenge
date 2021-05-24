@@ -1,21 +1,20 @@
 import React, { Component } from "react";
-import Cards from "./Cards";
+import Cards from "./cards/Cards";
 class Properties extends Component {
   render() {
     function random(e) {
       if (e === 0) {
-        return Math.floor(Math.random() * 10) + 1;
+        return Math.floor(Math.random() * 20) + 1;
       }
       return Math.floor(Math.random() * e * 500) + 1;
     }
-    const limit = 20;
+    const limit = random(0);
     let nCards = [];
-    for (let i = 1; i < limit; i++) {
+    for (let i = 1; i <= limit; i++) {
       nCards.push(
         <Cards
           diaria={random(i)}
           taxaLimpeza={random(i)}
-          coucao={random(i)}
           hospedes={random(0)}
           quartos={random(0)}
           source={`https://source.unsplash.com/${500 + i}x${500 + i}/?House`}
