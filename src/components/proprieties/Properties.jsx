@@ -13,11 +13,12 @@ class Properties extends Component {
     for (let i = 1; i <= limit; i++) {
       nCards.push(
         <Cards
+          index={i}
           diaria={random(i)}
           taxaLimpeza={random(i)}
           hospedes={random(0)}
           quartos={random(0)}
-          source={`https://source.unsplash.com/${500 + i}x${500 + i}/?House`}
+          source={`https://source.unsplash.com/${600 + i}x${600 + i}/?House`}
         />
       );
     }
