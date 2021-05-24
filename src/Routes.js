@@ -1,20 +1,15 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-  BrowserRouter,
-} from "react-router-dom";
+import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
 
 import Home from "./components/home/Home";
 import Calendar from "./components/calendar/Calendar";
 import Budgets from "./components/budgets/Budgets";
 import Client from "./components/client/Client";
 import Control from "./components/control/Control";
-import Properties from "./components/proprieties/Properties";
 import Navbar from "./components/navbar/Navbar";
 import InfoBar from "./components/navbar/infobar/Infobar";
+import Properties from "./components/proprieties/Properties";
+import Details from "./components/proprieties/details/Details";
 
 export default function App() {
   return (
@@ -41,6 +36,11 @@ export default function App() {
         <Route path="/properties">
           <InfoBar />
           <Properties />
+        </Route>
+
+        <Route path="/details">
+          <InfoBar />
+          <Details />
         </Route>
 
         <Route exact path="/control">
