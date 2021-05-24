@@ -1,0 +1,26 @@
+.details-link-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.details-link {
+  text-decoration: none;
+  color: var(--sec-black);
+  transition: 0.3s;
+  margin-right: 1rem;
+}
+.details-link spam {
+  color: var(--third-black);
+}
+
+.details-link spam:hover {
+  color: var(--black);
+}
+
+.details-link:hover {
+  color: var(--black);
+}
+
+#details-link-arrow {
+  margin-right: 1rem;
+  color: var(--qua-black);
+}
