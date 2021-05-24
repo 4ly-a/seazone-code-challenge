@@ -12,12 +12,19 @@ import yes from "../../../assets/img/detailPin/svg/y-pin.svg";
 import active from "../../../assets/img/detailPin/svg/active.svg";
 
 const Details = () => {
-  const [bail, tax] = [50, 20];
-  const [cama, sofa] = [2, 4];
+  const [bail, tax] = [random(1), random(2)];
+  const [cama, sofa, hospedes] = [random(0), random(0), random(0)];
+
+  function random(e) {
+    if (e === 0) {
+      return Math.floor(Math.random() * 20) + 1;
+    }
+    return Math.floor(Math.random() * e * 500) + 1;
+  }
 
   const i = window.location.href
     .split(":")
-    .filter((n) => Number(n) || n == 0)
+    .filter((n) => Number(n) || n === 0)
     .join("");
 
   console.log(i);
@@ -60,7 +67,9 @@ const Details = () => {
             <h1>ILCC Suite top alto da boa vista</h1>
             <p>Jurere internacional Florianópolis</p>
             <div className="subtitle-container">
-              <p>8 Quartos 9 banheiros 2 camas </p>
+              <p>
+                {sofa} Quartos {cama} banheiros {cama} camas{" "}
+              </p>
               <img className="active-pin" src={active} alt="active pin" />
             </div>
           </div>
@@ -69,7 +78,8 @@ const Details = () => {
             <div className="info group">
               <h1>Máx de hospedes</h1>
               <div className="icon">
-                <img className="group" alt="group icon" src={group} /> <p>6</p>
+                <img className="group" alt="group icon" src={group} />{" "}
+                <p> {hospedes} </p>
               </div>
             </div>
 
