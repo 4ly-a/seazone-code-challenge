@@ -13,10 +13,23 @@ const Cards = (props) => {
         <Link to="/details">
           <img className="house" alt="house" src={props.source} />
         </Link>
-
         <div className="circle-container">
-          <img className="pin airbnb" alt="airbnb" src={airbnb} />
-          <img className="pin airbnb" alt="airbnb" src={house} />
+          <img
+            onClick={() => {
+              window.open("https://www.airbnb.com.br/");
+            }}
+            className="pin airbnb"
+            alt="airbnb"
+            src={airbnb}
+          />
+          <img
+            onClick={() => {
+              window.open("https://www.seazone.com.br/");
+            }}
+            className="pin house"
+            alt="house"
+            src={house}
+          />
         </div>
       </div>
 
