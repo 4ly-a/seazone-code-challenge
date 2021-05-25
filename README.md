@@ -24,7 +24,7 @@ Na rota de propriedades foram geradas vários cards que representam as casas, pa
 
 Os links ficam dentro de um `for loop` cujo limite pode ser controlado pelo programador através da constante `limit` encontrada em `components/proprieties/Properties`, para que as imagens geradas fossem diferentes umas das outras, foi necessário adicionar +1 no tamanho delas para cada passagem do loop, pois o comportamento padrão do unsplash geraria todas as imagens iguais se não houvesse esse acréscimo no seu tamanho.
 
-O número de casas geradas também varia dinamicamente, portanto cada vez que a página é recarregada ele gera um novo número de cards, variando de 1 a 50 
+O número de casas geradas também varia dinamicamente, portanto cada vez que a página é recarregada ele gera um novo número de cards, variando de 1 a 20
 
 ## Lógica dos cards
 
