@@ -27,9 +27,7 @@ const Details = () => {
     .filter((n) => Number(n) || n === 0)
     .join("");
 
-  console.log(i);
-
-  const source = `https://source.unsplash.com/${600 + i}x${600 + i}/?House`;
+  const source = `https://source.unsplash.com/${1280}x${720}/?House`;
 
   return (
     <div className="details-page-container">
