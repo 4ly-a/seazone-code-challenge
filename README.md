@@ -1,5 +1,7 @@
 # Seazone Code Challenge
 
+Seazone Code challenge desafio front-end de Alysson
+
 # Rotas
 
 Utilizei o `React-router-dom` para gerenciar as rotas da aplicação, começando a navbar por fora para que esta esteja presente em todas as rotas da aplicação, cada link da navbar tem uma rota própria e ao digitar uma rota que não existe no sistema o usuário automaticamente é redirecionado a rota padrão `"/"`
