@@ -10,11 +10,7 @@ Utilizei o `React-router-dom` para gerenciar as rotas da aplicação, começando
 
 A rota de propriedades `/properties` junto da rota de detalhes de cada propriedade `/details` ambas possuem o elemento `InfoBar.jsx` em comum.
 
-### Rota details
-
-Na rota de detalhes é mostrado os detalhes de cada casa no sistema, porém como a imagem é gerada do unsplash ela não muda de acordo com a imagem de cada card, é sempre fixa e sempre igual a imagem do primeiro card apenas.
-
-#### Detail page
+## Detail page
 
 A página de detalhes nada mais é do que uma rota na aplicação, que é acessada por um link na imagem de cada card na rota de propriedades 
 
