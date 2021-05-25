@@ -37,7 +37,7 @@ Todos esses valores gerados pela função são passados como props para o compon
 Uma variável `let nCards` representa o array de cards, e serve apenas para exibi-los dentro
 do container apropriado, no caso `card-container`
 
-# css 
+# Style 
 
 O css do site está todo dentro da pasta style `/assets/style/ ` dividido em componentes como na aplicação principal porém ao invés de ser importado diretamente dentro de cada componente, eles todos ficam dentro do arquivo `index.css` na raiz da aplicação, que é importado dentro de `index.js` que é o único lugar do sistema onde o css é importado, escolhi essa organização pois é uma forma mais simples de manter além de separar bem o que css dos componentes. 
 
