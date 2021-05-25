@@ -22,10 +22,10 @@ const Details = () => {
     return Math.floor(Math.random() * e * 500) + 1;
   }
 
-  const i = window.location.href
-    .split(":")
-    .filter((n) => Number(n) || n === 0)
-    .join("");
+  // const i = window.location.href
+  //   .split(":")
+  //   .filter((n) => Number(n) || n === 0)
+  //   .join("");
 
   const source = `https://source.unsplash.com/${1280}x${720}/?House`;
 
