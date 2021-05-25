@@ -12,6 +12,14 @@ A rota de propriedades `/properties` junto da rota de detalhes de cada proprieda
 
 Na rota de detalhes é mostrado os detalhes de cada casa no sistema, porém como a imagem é gerada do unsplash ela não muda de acordo com a imagem de cada card, é sempre fixa e sempre igual a imagem do primeiro card apenas.
 
+#### Detail page
+
+A página de detalhes nada mais é do que uma rota na aplicação, que é acessada por um link na imagem de cada card na rota de propriedades 
+
+Assim como os cards a detail page também utiliza valores randômicos e gera novos cada vez que a página é recarregada
+
+Por conta de uma limitação da api do unsplash e da lógica que utilizei para os Cards, não foi possível gerar a mesma imagem ao clicar no card na rota principal, porém o index do card é passado como parâmetro na rota, onde o mesmo é capturado e colocado no source da imagem, porém ainda assim as imagens não coincidiram
+
 ## Cards
 
 Na rota de propriedades foram geradas vários cards que representam as casas, para cria-los foi utilizada a `api do unsplash` na qual se pode gerar imagens randômicas através de um link, também se pode filtrar por termos específicos, como nos cards o termo filtrado é `house` o que permite a criação de várias imagens com o tema house.
@@ -20,7 +28,7 @@ Os links ficam dentro de um `for loop` cujo limite pode ser controlado pelo prog
 
 O número de casas geradas também varia dinamicamente, portanto cada vez que a página é recarregada ele gera um novo número de cards, variando de 1 a 50 
 
-### Lógica dos cards
+## Lógica dos cards
 
 A função random() é responsável por definir os valores tanto de preço como de tamanho aleatório, variando entre 1 - 500, e caso o parâmetro passado para a função seja 0, o valor varia apenas de 1 - 20, essa condição especial foi introduzida para definir número de cards que é gerado quando a página é carregada, sendo assim toda vez que é recarregada um número de cards diferentes vai aparecer juntamente com valores diferentes.
 
@@ -28,14 +36,6 @@ Todos esses valores gerados pela função são passados como props para o compon
 
 Uma variável `let nCards` representa o array de cards, e serve apenas para exibi-los dentro
 do container apropriado, no caso `card-container`
-
-## Detail page
-
-A página de detalhes nada mais é do que uma rota na aplicação, que é acessada por um link na imagem de cada card na rota de propriedades 
-
-Assim como os cards a detail page também utiliza valores randômicos e gera novos cada vez que a página é recarregada
-
-Por conta de uma limitação da api do unsplash e da lógica que utilizei para os Cards, não foi possível gerar a mesma imagem ao clicar no card na rota principal, porém o index do card é passado como parâmetro na rota, onde o mesmo é capturado e colocado no source da imagem, porém ainda assim as imagens não coincidiram
 
 # css 
 
