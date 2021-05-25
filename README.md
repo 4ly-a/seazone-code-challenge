@@ -64,7 +64,6 @@ E depois
 npm install && npm start
 ```
 
-
-
+# Readme automático
 
 [readme automático gerado pelo create-react-app](src/assets/react.md)
