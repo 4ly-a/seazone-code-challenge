@@ -26,3 +26,11 @@
   margin-right: 1rem;
   color: var(--qua-black);
 }
+
+#active-detail {
+  color: var(--third-black);
+}
+
+#active-detail:hover {
+  color: var(--black);
+}

@@ -30,7 +30,7 @@ const Details = () => {
           Propriedades{" "}
         </Link>
         <spam id="details-link-arrow"> &gt; </spam>{" "}
-        <spam className="details-link">Detalhe</spam>
+        <spam id="active-detail" className="details-link">Detalhe</spam>
       </div>
 
       <div className="content-container">
