@@ -29,11 +29,8 @@ const Details = () => {
         <Link className="details-link" to="/properties">
           Propriedades{" "}
         </Link>
-        <spam id="details-link-arrow"> &gt; </spam>
-        <Link className="details-link" to="/details">
-          {" "}
-          <spam>Detalhe</spam>
-        </Link>
+        <spam id="details-link-arrow"> &gt; </spam>{" "}
+        <spam className="details-link">Detalhe</spam>
       </div>
 
       <div className="content-container">

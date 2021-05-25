@@ -1,8 +1,10 @@
 .details-link-container {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  user-select: none;
 }
 .details-link {
+  cursor: pointer;
   text-decoration: none;
   color: var(--sec-black);
   transition: 0.3s;
