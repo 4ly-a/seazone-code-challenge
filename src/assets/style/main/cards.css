@@ -119,4 +119,7 @@ td {
   .proprieties-container {
     margin: 2rem;
   }
+  .pin {
+    display: none;
+  }
 }
