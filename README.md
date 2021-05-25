@@ -10,11 +10,7 @@ Utilizei o `React-router-dom` para gerenciar as rotas da aplicação, começando
 
 A rota de propriedades `/properties` junto da rota de detalhes de cada propriedade `/details` ambas possuem o elemento `InfoBar.jsx` em comum.
 
-### Rota details
-
-Na rota de detalhes é mostrado os detalhes de cada casa no sistema, porém como a imagem é gerada do unsplash ela não muda de acordo com a imagem de cada card, é sempre fixa e sempre igual a imagem do primeiro card apenas.
-
-#### Detail page
+## Detail page
 
 A página de detalhes nada mais é do que uma rota na aplicação, que é acessada por um link na imagem de cada card na rota de propriedades 
 
@@ -28,7 +24,7 @@ Na rota de propriedades foram geradas vários cards que representam as casas, pa
 
 Os links ficam dentro de um `for loop` cujo limite pode ser controlado pelo programador através da constante `limit` encontrada em `components/proprieties/Properties`, para que as imagens geradas fossem diferentes umas das outras, foi necessário adicionar +1 no tamanho delas para cada passagem do loop, pois o comportamento padrão do unsplash geraria todas as imagens iguais se não houvesse esse acréscimo no seu tamanho.
 
-O número de casas geradas também varia dinamicamente, portanto cada vez que a página é recarregada ele gera um novo número de cards, variando de 1 a 50 
+O número de casas geradas também varia dinamicamente, portanto cada vez que a página é recarregada ele gera um novo número de cards, variando de 1 a 20
 
 ## Lógica dos cards
 
