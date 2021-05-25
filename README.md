@@ -69,4 +69,4 @@ npm install && npm start
 
 # Readme automático
 
-[readme automático gerado pelo create-react-app](src/assets/react.md)
+[readme automático gerado pelo create-react-app](https://github.com/4ly-a/seazone-code-challenge/blob/gh-pages/react.md)
