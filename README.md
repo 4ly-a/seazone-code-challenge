@@ -37,5 +37,34 @@ Assim como os cards a detail page também utiliza valores randômicos e gera nov
 
 Por conta de uma limitação da api do unsplash e da lógica que utilizei para os Cards, não foi possível gerar a mesma imagem ao clicar no card na rota principal, porém o index do card é passado como parâmetro na rota, onde o mesmo é capturado e colocado no source da imagem, porém ainda assim as imagens não coincidiram
 
+# css 
+
+O css do site está todo dentro da pasta style `/assets/style/ ` dividido em componentes como na aplicação principal porém ao invés de ser importado diretamente dentro de cada componente, eles todos ficam dentro do arquivo `index.css` na raiz da aplicação, que é importado dentro de `index.js` que é o único lugar do sistema onde o css é importado, escolhi essa organização pois é uma forma mais simples de manter além de separar bem o que css dos componentes. 
+
+# Como rodar a aplicação
+
+### Teste simples 
+
+ A aplicação pode ser facilmente testada pelo link 
+
+[Seazone-code-challenge](https://seazone.vercel.app/)
+
+### Rodando pelo terminal 
+
+Para rodar a aplicação basta digitar os seguintes comandos no terminal
+
+```shell
+git clone https://github.com/4ly-a/seazone-code-challenge
+```
+
+E depois
+
+
+```shell
+npm install && npm start
+```
+
+
+
 
 [readme automático gerado pelo create-react-app](src/assets/react.md)
