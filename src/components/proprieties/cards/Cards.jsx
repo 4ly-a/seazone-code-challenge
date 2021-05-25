@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import airbnb from "../../../assets/img/pins/airbnb.png";
 import house from "../../../assets/img/pins/house.png";
 

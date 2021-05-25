@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import Cards from "./cards/Cards";
-class Properties extends Component {
 
+import Cards from "./cards/Cards";
+
+import random from "../../utils/random";
+class Properties extends Component {
   render() {
-    function random(e) {
-      if (e === 0) {
-        return Math.floor(Math.random() * 20) + 1;
-      }
-      return Math.floor(Math.random() * e * 500) + 1;
-    }
     const limit = random(0);
-    
+
     let nCards = [];
     for (let i = 1; i <= limit; i++) {
       nCards.push(

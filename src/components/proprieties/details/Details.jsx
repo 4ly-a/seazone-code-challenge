@@ -1,12 +1,11 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
+
+import random from "../../../utils/random";
 
 import group from "../../../assets/img/icons/group.svg";
 import house from "../../../assets/img/icons/house.svg";
-
 import deposit from "../../../assets/img/icons/deposit.svg";
-
 import no from "../../../assets/img/detailPin/svg/n-pin.svg";
 import yes from "../../../assets/img/detailPin/svg/y-pin.svg";
 import active from "../../../assets/img/detailPin/svg/active.svg";
@@ -15,19 +14,14 @@ const Details = () => {
   const [bail, tax] = [random(1), random(2)];
   const [cama, sofa, hospedes] = [random(0), random(0), random(0)];
 
-  function random(e) {
-    if (e === 0) {
-      return Math.floor(Math.random() * 20) + 1;
-    }
-    return Math.floor(Math.random() * e * 500) + 1;
-  }
-
   // const i = window.location.href
   //   .split(":")
   //   .filter((n) => Number(n) || n === 0)
   //   .join("");
 
-  const source = `https://source.unsplash.com/${1280}x${720}/?House`;
+  for (let i = 1; i < random(0); i++) {
+    var source = `https://source.unsplash.com/${1280 + i}x${720 + i}/?House`;
+  }
 
   return (
     <div className="details-page-container">
