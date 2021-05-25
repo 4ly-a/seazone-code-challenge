@@ -30,7 +30,7 @@
 
 .button:hover {
   transform: translateY(-3px);
-  color: var(--f-white);
+  color: var(--white);
   background: var(--grad-red);
 }
 
@@ -43,7 +43,7 @@
 
 .filter-container p:hover {
   background: var(--red);
-  color: var(--f-white);
+  color: var(--white);
 }
 
 @media screen and (min-width: 700px) {
