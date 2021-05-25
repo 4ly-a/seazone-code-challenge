@@ -1,16 +1,7 @@
 @import "./cards.css";
 
-.proprieties-container {
-  margin: 5rem;
-}
-
 .title-p-container {
   margin-bottom: 3rem;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .title-p-container {
@@ -35,4 +26,17 @@
   justify-content: right;
   align-items: center;
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .ordenation-container {
+    width: 100%;
+    text-align: left;
+    display: flex;
+  }
+  .title-p-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
 }

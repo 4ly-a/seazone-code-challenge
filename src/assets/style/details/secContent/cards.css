@@ -36,3 +36,12 @@
   font-weight: bolder;
   color: var(--third-black);
 }
+
+@media screen and (max-width: 700px) {
+  .sec-info-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
+}

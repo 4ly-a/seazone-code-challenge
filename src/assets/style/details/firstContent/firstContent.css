@@ -37,3 +37,9 @@
 .location-container a:hover {
   border-bottom: 2px solid var(--red);
 }
+
+@media screen and (max-width: 700px) {
+  .first-container {
+    margin: 0px;
+  }
+}

@@ -35,3 +35,13 @@
   font-size: 1rem;
   font-weight: bold;
 }
+
+@media screen and (max-width: 700px) {
+  .sec-title-container h1 {
+    margin-top: 2rem;
+  }
+  .subtitle-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

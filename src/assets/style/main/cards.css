@@ -70,6 +70,10 @@ td {
   text-align: left;
 }
 
+.proprieties-container {
+  margin: 5rem;
+}
+
 .value {
   text-align: right;
   align-items: end;
@@ -87,7 +91,32 @@ td {
   margin-left: 1rem;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .pin {
   cursor: pointer;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 700px) {
+  .card-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 100%;
+
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    height: 100%;
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  .proprieties-container {
+    margin: 2rem;
+  }
 }
